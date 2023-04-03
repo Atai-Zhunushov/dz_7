@@ -60,17 +60,17 @@ class Truck extends Cars {
     }
 }
 
-// Creating 3 cars with the above classes
+//
 const car1 = new SportsCar("Porsche 911", "Red", 4, "V6");
 const car2 = new SUV("Toyota RAV4", "Black", 4, 5);
 const car3 = new Truck("Ford F-150", "White", 6, 1500);
 
-// Starting each car
+// 
 car1.start(); // The machine is running
 car2.start(); // The machine is running
 car3.start(); // The machine is running
 
-// Displaying cars on the webpage
+//
 car1.display();
 car2.display();
 car3.display();
